@@ -7,7 +7,7 @@ a = [10,20,30,40]
 print("a[-1]은 %d, a[-2]는 %d"%(a[-1], a[-2]))
 print(a[0:3])
 print(a[0:4:2])
-print(a[2:])
+print("a[2:]",a[2:])
 print(a[:2])
 print(a[::2])
 print(a[::-2])

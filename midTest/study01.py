@@ -25,11 +25,12 @@ print(r"\n \t \" \\를 그대로 출력")                       #r을 앞에 붙
 
 print(bin(11))  #2진수
 print(oct(11))  #8진수
-print(hex(11))  #16진수
+print(hex(11))  #1 6진수
 
 a = 123
 print(type(a))  #타입 출력
 print(f"a is {a},{20},{30}")        #f-string연습
+print("I'm student")
 print('\hello')
 print('I don\t know')
 print(r'c:\user\bin')
@@ -38,4 +39,6 @@ line1
 line2
 line3\
 """)
+
+print("aaaaabbbbb")
 

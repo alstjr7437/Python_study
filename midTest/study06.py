@@ -17,11 +17,12 @@ print(student)
 print('----------------------------------')
 
 print(student['이름'])           #없으면 오류 발생
-print(student.get('이름'))       #없는것 입력해도 오류X
+print(student.get('사랑'))       #없는것 입력해도 오류X
 print(student.keys())           #dict_keys([key값]) 이렇게 반환
 print(list(student.keys()))     #dict보기 싫으면 list 괄호 활용
 print(student.values())         #value
 print(list(student.values()))
 print(student.items())          #items함수는 튜플형태로 나옴
+print(list(student.items()))
 print('이름' in student)         #딕셔너리 안에 있는지 반환
 print('안녕' in student)

@@ -36,3 +36,21 @@ tup = list(zip(a,b))
 dic = dict(zip(a,b))
 print(tup)
 print(dic)
+
+print('--------')
+d = ['a','b','c']
+e = [1,2,3]
+z = []
+#for i, f in zip(i, f):
+#    z.append(d)
+#    z.append(e)
+print(z)
+
+newL = [1,2,3]
+oldL = newL
+print(oldL)
+newL.append(4)
+print(oldL)
+
+foods = ['떡볶이', "친구", "나라"]
+goods = ['123', '23', '324']
